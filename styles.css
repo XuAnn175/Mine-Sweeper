@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.board {
+    display: inline-block;
+    margin: 20px;
+}
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    cursor: pointer;
+ 
+    /* Default color for unrevealed tiles */
+    background-color: #eee;
+ 
+    /* Default color for unrevealed tile text */
+    color: #333;
+}
+
+.cell img {
+    width: 90%;  /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+}
+
+.revealed {
+    /* Color for revealed tiles */
+    background-color: #ccc;
+ 
+    /* Color for revealed tile text */
+    color: #000;
+}
+.mine {
+    /* Color for mines */
+    background-color: #ff3333;
+}
+
+#gameInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ccc; /* Background color of the game board */
+    padding: 10px; /* Adjust padding as needed */
+    border: 2px solid #999; /* Border style */
+    width: 19%; /* Set the width to 50% */
+    margin: 0 auto; /* Center the element horizontally */
+}
+
+#mineCount,
+#timer {
+    background-color: black; /* Background color for the counters */
+    color: red; /* Text color for the counters */
+    font-family: 'Digital-7', sans-serif; /* Use a digital clock font if available */
+    font-size: 2em; /* Adjust font size as needed */
+    padding: 10px 20px; /* Adjust padding for the counters */
+    border-radius: 5px; /* Rounded corners for counters */
+}
+
+#resetButton {
+    width: 50px; /* Width of the reset button */
+    height: 50px; /* Height of the reset button */
+    background-color: #fff; /* Background color of the reset button */
+    border: 2px solid #999; /* Border style for the reset button */
+    border-radius: 50%; /* Make the reset button circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+#resetButton img {
+    width: 80%; /* Adjust size of the image inside the button */
+    height: auto;
+}
+
+.flagged {
+    background-color: yellow; /* Color for flagged cells */
+}
+
+button.difficulty {
+    width: 6.65%;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 1em;
+}
+
+button.sr{
+    width: 10%;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 1em;
+}

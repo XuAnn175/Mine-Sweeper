@@ -1,0 +1,28 @@
+
+<!-- Index.html -->
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Minesweeper Game</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+ 
+<body>
+    <h1>Minesweeper</h1>
+    <div id="gameInfo">
+        <div id="mineCount"></div>
+        <img id="resetButton" src="neutral.svg" alt="Reset Game" />
+        <div id="timer"></div>
+    </div>
+    <div id="gameBoard"></div>
+    <button id="easy" class="difficulty">Easy</button>
+    <button id="normal" class="difficulty">Normal</button>
+    <button id="hard" class="difficulty">Hard</button>
+    <br>
+    <button id="saveState" class="sr">Save State</button>
+    <button id="retrieveState" class="sr">Retrieve State</button>
+</body>
+<script src="script.js"></script>
+ 
+</html>
