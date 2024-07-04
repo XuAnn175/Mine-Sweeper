@@ -1,28 +1,20 @@
-
-<!-- Index.html -->
 <!DOCTYPE html>
-<html>
- 
+<html lang="zh-TW">
 <head>
-    <title>Minesweeper Game</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>遊戲天堂</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="styles.css">
- 
 <body>
-    <h1>Minesweeper</h1>
-    <div id="gameInfo">
-        <div id="mineCount"></div>
-        <img id="resetButton" src="neutral.svg" alt="Reset Game" />
-        <div id="timer"></div>
-    </div>
-    <div id="gameBoard"></div>
-    <button id="easy" class="difficulty">Easy</button>
-    <button id="normal" class="difficulty">Normal</button>
-    <button id="hard" class="difficulty">Hard</button>
-    <br>
-    <button id="saveState" class="sr">Save State</button>
-    <button id="retrieveState" class="sr">Retrieve State</button>
+    <header>
+        <h1>歡迎來到遊戲天堂</h1>
+    </header>
+    <main>
+        <div class="button-container">
+            <a href="./minesweeper/minesweeper.html" class="button"> 踩地雷</a>
+            <a href="./wordle/wordle.html" class="button"> Wordle</a>
+        </div>
+    </main>
 </body>
-<script src="script.js"></script>
- 
 </html>
