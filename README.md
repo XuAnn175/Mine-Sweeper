@@ -18,5 +18,5 @@ Wordle is a word puzzle game where players have six attempts to guess a five-let
 - **Play Wordle**: [Wordle Game](https://xuann175.github.io/XuAnn.github.io/wordle/wordle.html)
 - **Styling**: The game's appearance is controlled by [styles.css](./wordle/styles.css).
 - **Logic**: The core game mechanics are handled in [script.js](./wordle/script.js).
-![](https://imgur.com/a/egE3dL1.jpg)
+![](https://imgur.com/a/egE3dL1.jpg)  
 Enjoy exploring these games and may you have hours of fun!
