@@ -6,7 +6,7 @@ Welcome to 遊戲天堂 (Game Paradise), a collection of classic games reimagine
 
 Minesweeper is a test of patience and strategy. The goal is to clear a minefield without detonating any mines. With each click, you reveal what is hidden underneath the square: a number indicating the number of mines in the adjacent squares, or a mine which ends the game. The game offers different difficulty levels to challenge both beginners and seasoned players.
 
-- **Play Minesweeper**: [Minesweeper Game](./minesweeper/minesweeper.html)
+- **Play Minesweeper**: [Minesweeper Game]((https://xuann175.github.io/XuAnn.github.io/minesweeper/minesweeper.html)
 - **Styling**: The game's look and feel are defined in [styles.css](./minesweeper/styles.css).
 - **Logic**: Game logic is implemented in [script.js](./minesweeper/script.js).
 
@@ -14,7 +14,7 @@ Minesweeper is a test of patience and strategy. The goal is to clear a minefield
 
 Wordle is a word puzzle game where players have six attempts to guess a five-letter word. Each guess provides feedback in the form of colored tiles, indicating when letters match or occupy the correct position. It's a simple yet addictive game that challenges your vocabulary and deductive reasoning.
 
-- **Play Wordle**: [Wordle Game](./wordle/wordle.html)
+- **Play Wordle**: [Wordle Game](https://xuann175.github.io/XuAnn.github.io/wordle/wordle.html)
 - **Styling**: The game's appearance is controlled by [styles.css](./wordle/styles.css).
 - **Logic**: The core game mechanics are handled in [script.js](./wordle/script.js).
 
