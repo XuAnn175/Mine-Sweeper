@@ -9,7 +9,7 @@ Minesweeper is a test of patience and strategy. The goal is to clear a minefield
 - **Play Minesweeper**: [Minesweeper Game](https://xuann175.github.io/XuAnn.github.io/minesweeper/minesweeper.html)
 - **Styling**: The game's look and feel are defined in [styles.css](./minesweeper/styles.css).
 - **Logic**: Game logic is implemented in [script.js](./minesweeper/script.js).
-![](https://imgur.com/a/egE3dL1)
+![](https://imgur.com/a/HHY9Hn8.jpg)
 
 ## Wordle
 
@@ -18,5 +18,5 @@ Wordle is a word puzzle game where players have six attempts to guess a five-let
 - **Play Wordle**: [Wordle Game](https://xuann175.github.io/XuAnn.github.io/wordle/wordle.html)
 - **Styling**: The game's appearance is controlled by [styles.css](./wordle/styles.css).
 - **Logic**: The core game mechanics are handled in [script.js](./wordle/script.js).
-
+![](https://imgur.com/a/egE3dL1.jpg)
 Enjoy exploring these games and may you have hours of fun!
