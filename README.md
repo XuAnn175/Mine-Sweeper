@@ -9,6 +9,7 @@ Minesweeper is a test of patience and strategy. The goal is to clear a minefield
 - **Play Minesweeper**: [Minesweeper Game](https://xuann175.github.io/XuAnn.github.io/minesweeper/minesweeper.html)
 - **Styling**: The game's look and feel are defined in [styles.css](./minesweeper/styles.css).
 - **Logic**: Game logic is implemented in [script.js](./minesweeper/script.js).
+![](https://imgur.com/a/egE3dL1)
 
 ## Wordle
 
