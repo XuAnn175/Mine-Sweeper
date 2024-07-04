@@ -1,4 +1,4 @@
-# 遊戲天堂 - XuAnn175.github.io
+# 遊戲天堂 - JavaScript Games Implementation [(Game Link)](https://xuann175.github.io/XuAnn.github.io/)
 
 Welcome to 遊戲天堂 (Game Paradise), a collection of classic games reimagined for the web. This repository hosts two beloved games: Minesweeper and Wordle, each crafted with care to offer an engaging and nostalgic gaming experience.
 
