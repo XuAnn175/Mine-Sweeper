@@ -13,13 +13,9 @@ We developed an initial game interface as a homepage linking to two JavaScript m
 
 ### Results
 - **Figure 1:** Initial Game Interface
+    ![](https://imgur.com/O3hE8I3.jpg)
 - **Figure 2:** Minesweeper Game Interface
 - **Figure 3:** Wordle Game Interface
-
-### Team Contributions
-- **Sun Cheng-Rui (110550034):** Programming, written report
-- **Chi Wei-Ling (110550170):** Programming, written report
-- **Zheng Xu-An (110550175):** Theme ideation, programming, recording video presentation
 
 ## 2. Background
 ### Minesweeper Overview
