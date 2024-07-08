@@ -15,8 +15,9 @@ We developed an initial game interface as a homepage linking to two JavaScript m
 - **Figure 1:** Initial Game Interface
     ![](https://imgur.com/O3hE8I3.jpg)
 - **Figure 2:** Minesweeper Game Interface
+  ![](https://imgur.com/8dbpWTJ.jpg)
 - **Figure 3:** Wordle Game Interface
-
+![](https://imgur.com/DoRxyTz.jpg)
 ## 2. Background
 ### Minesweeper Overview
 Minesweeper is a Microsoft-developed game where the objective is to identify all non-mine squares. Clicking a mine results in failure, with scoring based on remaining time. Players select different grid sizes and use logical reasoning to identify mine locations.
