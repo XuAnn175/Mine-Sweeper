@@ -12,11 +12,11 @@ After learning HTML, CSS, and JavaScript throughout the semester, we decided to 
 We developed an initial game interface as a homepage linking to two JavaScript mini games: Minesweeper and Wordle. Minesweeper displays remaining mines, reset button, countdown timer, mine grid, difficulty buttons, and game state save/load buttons. Players use the mouse to play and can save the game state at any time. Wordle generates a five-letter word daily from a set of 2315 words, giving players six attempts to guess the word using a keyboard.
 
 ### Results
-- **Figure 1:** Initial Game Interface
+- **Figure 1:** Initial Game Interface  
 ![](https://imgur.com/O3hE8I3.jpg)
-- **Figure 2:** Minesweeper Game Interface
+- **Figure 2:** Minesweeper Game Interface  
 ![](https://imgur.com/8dbpWTJ.jpg)
-- **Figure 3:** Wordle Game Interface
+- **Figure 3:** Wordle Game Interface  
 ![](https://imgur.com/DoRxyTz.jpg)
 ## 2. Background
 ### Minesweeper Overview
