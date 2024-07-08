@@ -13,9 +13,9 @@ We developed an initial game interface as a homepage linking to two JavaScript m
 
 ### Results
 - **Figure 1:** Initial Game Interface
-    ![](https://imgur.com/O3hE8I3.jpg)
+![](https://imgur.com/O3hE8I3.jpg)
 - **Figure 2:** Minesweeper Game Interface
-  ![](https://imgur.com/8dbpWTJ.jpg)
+![](https://imgur.com/8dbpWTJ.jpg)
 - **Figure 3:** Wordle Game Interface
 ![](https://imgur.com/DoRxyTz.jpg)
 ## 2. Background
