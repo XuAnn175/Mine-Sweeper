@@ -1,26 +1,93 @@
-# 2 JavaScript Games Implementation [(Game Link)](https://xuann175.github.io/XuAnn.github.io/)
 
-Welcome to 遊戲天堂 (Game Paradise), a collection of classic games reimagined for the web. This repository hosts two beloved games: Minesweeper and Wordle, each crafted with care to offer an engaging and nostalgic gaming experience.
+# Gaming Paradise - JavaScript Web Game Project
 
-## Minesweeper
+## Abstract
+We created two web mini games using JavaScript combined with HTML and CSS: Minesweeper and Wordle. A primary game interface links to these games, allowing play via a web browser. Minesweeper includes game state saving/loading using JSON files, while Wordle features keyboard input with interactive and visually appealing game interfaces.
 
-Minesweeper is a test of patience and strategy. The goal is to clear a minefield without detonating any mines. With each click, you reveal what is hidden underneath the square: a number indicating the number of mines in the adjacent squares, or a mine which ends the game. The game offers different difficulty levels to challenge both beginners and seasoned players.
-<center>
-  ![](https://imgur.com/DrfdRPn.jpg)
-</center>
+## 1. Introduction
+### Motivation
+After learning HTML, CSS, and JavaScript throughout the semester, we decided to leverage our gaming interests and JavaScript's suitability for web game development by creating two web mini games for our final project.
 
+### Research Overview
+We developed an initial game interface as a homepage linking to two JavaScript mini games: Minesweeper and Wordle. Minesweeper displays remaining mines, reset button, countdown timer, mine grid, difficulty buttons, and game state save/load buttons. Players use the mouse to play and can save the game state at any time. Wordle generates a five-letter word daily from a set of 2315 words, giving players six attempts to guess the word using a keyboard.
 
-- **Play Minesweeper**: [Minesweeper Game](https://xuann175.github.io/XuAnn.github.io/minesweeper/minesweeper.html)
-- **Styling**: The game's look and feel are defined in [styles.css](./minesweeper/styles.css).
-- **Logic**: Game logic is implemented in [script.js](./minesweeper/script.js).
+### Results
+- **Figure 1:** Initial Game Interface
+- **Figure 2:** Minesweeper Game Interface
+- **Figure 3:** Wordle Game Interface
 
+### Team Contributions
+- **Sun Cheng-Rui (110550034):** Programming, written report
+- **Chi Wei-Ling (110550170):** Programming, written report
+- **Zheng Xu-An (110550175):** Theme ideation, programming, recording video presentation
 
-## Wordle
+## 2. Background
+### Minesweeper Overview
+Minesweeper is a Microsoft-developed game where the objective is to identify all non-mine squares. Clicking a mine results in failure, with scoring based on remaining time. Players select different grid sizes and use logical reasoning to identify mine locations.
 
-Wordle is a word puzzle game where players have six attempts to guess a five-letter word. Each guess provides feedback in the form of colored tiles, indicating when letters match or occupy the correct position. It's a simple yet addictive game that challenges your vocabulary and deductive reasoning.
+### Wordle Overview
+Wordle, developed by Josh Wardle, generates a five-letter word daily from a set of 2315 words. Players have six attempts to guess the word, with feedback given through colored indicators (green for correct letters in the correct position, yellow for correct letters in the wrong position, gray for incorrect letters). The game gained global popularity in late 2021 due to its simplicity and shareable results.
 
-- **Play Wordle**: [Wordle Game](https://xuann175.github.io/XuAnn.github.io/wordle/wordle.html)
-- **Styling**: The game's appearance is controlled by [styles.css](./wordle/styles.css).
-- **Logic**: The core game mechanics are handled in [script.js](./wordle/script.js).
-![](https://imgur.com/a/egE3dL1.jpg)  
-Enjoy exploring these games and may you have hours of fun!
+- **Figure 4:** Built-in Minesweeper on Windows
+- **Figure 5:** Wordle Game Interface
+
+## 3. Gaming Paradise - Main Content
+### Minesweeper - Program Principles
+- **Game Interface Structure:**
+  1. Remaining Mines: `<div id="mineCount">`
+  2. Reset Button: `<div id="resetbutton">`
+  3. Countdown Timer: `<div id="timer">`
+  4. Mine Grid: `<div id="gameboard">`
+
+#### Initialization Functions
+1. `initializeBoard()`: Initializes each grid cell to default state and randomly places mines.
+2. `renderBoard()`: Displays appropriate icons based on grid cell status.
+3. `restartTimer()`: Resets the countdown timer to 999 seconds.
+
+#### Winning Function
+Determines victory if all non-mine cells are revealed.
+
+#### Game Over Function
+Triggers defeat if any mine cell is clicked.
+
+#### Save/Load Game State Functions
+Creates a new object storing all current information and converts it to a JSON file for download. Loading restores the game state from the uploaded JSON file.
+
+### Minesweeper - Practical Examples
+- Initial game screen
+- Left-clicking non-mine cells shows surrounding mine count
+- Right-clicking to mark a mine decreases mine count in the top-left corner
+- Game over message and revealed mine locations upon clicking a mine
+- Winning message and smiley reset button upon identifying all mines
+
+### Wordle - Program Principles
+- **Game Interface Structure:**
+  1. Title: `<div id="logo">`
+  2. Give Up Button: `<div id="giveUpBtn">`
+  3. Game Area: `<div id="game_area">`
+  4. Clickable Keyboard: `<div id="keyboard">`
+
+#### Main Functions
+- Initializes the game board
+- Ends the game upon correct guess or exhausting attempts
+- Adds input letters to the current word
+- Deletes the last letter in the current word
+- Validates the guessed word against the dictionary and provides feedback based on correctness
+
+#### Practical Examples
+- Initial game screen
+- Example input and feedback colors for guessed words
+- Error message for non-word inputs
+- End of game messages for win/loss scenarios
+- Correct answer displayed in the console (F12)
+
+## 4. Issues and Discussions
+### Challenges & Solutions
+We faced difficulties finding suitable transparent background images for mines. After extensive search, we found suitable SVG files. Initially, we aimed to use JavaScript's OOP features and run the code on a web server but later simplified the approach by consolidating code into a single JS file.
+
+### Additional Features
+We added game state saving functionality using JSON files, providing a seamless experience for players to pause and resume their games.
+
+---
+
+This README file encapsulates the main contents and structure of your project report in a clear and organized manner.
