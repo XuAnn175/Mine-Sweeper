@@ -71,12 +71,6 @@ Creates a new object storing all current information and converts it to a JSON f
 - Deletes the last letter in the current word
 - Validates the guessed word against the dictionary and provides feedback based on correctness
 
-#### Practical Examples
-- Initial game screen
-- Example input and feedback colors for guessed words
-- Error message for non-word inputs
-- End of game messages for win/loss scenarios
-- Correct answer displayed in the console (F12)
 
 ## 4. Issues and Discussions
 ### Challenges & Solutions
