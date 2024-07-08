@@ -1,5 +1,5 @@
 
-# Gaming Paradise - JavaScript Web Game Project
+# Gaming Paradise - JavaScript Web Game Project [Game Link](https://xuann175.github.io/XuAnn.github.io/)
 
 ## Abstract
 We created two web mini games using JavaScript combined with HTML and CSS: Minesweeper and Wordle. A primary game interface links to these games, allowing play via a web browser. Minesweeper includes game state saving/loading using JSON files, while Wordle features keyboard input with interactive and visually appealing game interfaces.
