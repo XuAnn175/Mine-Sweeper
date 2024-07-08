@@ -50,13 +50,6 @@ Triggers defeat if any mine cell is clicked.
 #### Save/Load Game State Functions
 Creates a new object storing all current information and converts it to a JSON file for download. Loading restores the game state from the uploaded JSON file.
 
-### Minesweeper - Practical Examples
-- Initial game screen
-- Left-clicking non-mine cells shows surrounding mine count
-- Right-clicking to mark a mine decreases mine count in the top-left corner
-- Game over message and revealed mine locations upon clicking a mine
-- Winning message and smiley reset button upon identifying all mines
-
 ### Wordle - Program Principles
 - **Game Interface Structure:**
   1. Title: `<div id="logo">`
