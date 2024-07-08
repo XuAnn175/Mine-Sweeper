@@ -25,9 +25,6 @@ Minesweeper is a Microsoft-developed game where the objective is to identify all
 ### Wordle Overview
 Wordle, developed by Josh Wardle, generates a five-letter word daily from a set of 2315 words. Players have six attempts to guess the word, with feedback given through colored indicators (green for correct letters in the correct position, yellow for correct letters in the wrong position, gray for incorrect letters). The game gained global popularity in late 2021 due to its simplicity and shareable results.
 
-- **Figure 4:** Built-in Minesweeper on Windows
-- **Figure 5:** Wordle Game Interface
-
 ## 3. Gaming Paradise - Main Content
 ### Minesweeper - Program Principles
 - **Game Interface Structure:**
