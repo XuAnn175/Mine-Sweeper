@@ -72,6 +72,3 @@ We faced difficulties finding suitable transparent background images for mines. 
 ### Additional Features
 We added game state saving functionality using JSON files, providing a seamless experience for players to pause and resume their games.
 
----
-
-This README file encapsulates the main contents and structure of your project report in a clear and organized manner.
